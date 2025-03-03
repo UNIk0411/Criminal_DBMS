@@ -25,3 +25,20 @@ This project is a **full-stack application** designed to store and manage crimin
 - **Fetches** criminal records from the backend API.
 - **Displays** a list of criminals dynamically.
 - Uses **React hooks** (`useEffect`, `useState`) for state management.
+
+
+📦 Criminal-DBMS  
+┣ 📂 backend  
+┃ ┣ 📜 server.js  (Express backend)  
+┃ ┣ 📜 models/ (Mongoose schemas)  
+┃ ┗ 📜 routes/ (API endpoints)  
+┣ 📂 frontend  
+┃ ┣ 📜 src/  
+┃ ┃ ┣ 📜 App.js  (React frontend)  
+┃ ┃ ┗ 📜 components/  
+┣ 📂 blockchain  
+┃ ┣ 📜 CrimeRegistry.sol  (Smart contract)  
+┃ ┗ 📜 hardhat.config.js  
+┣ 📜 README.md  
+┣ 📜 package.json  
+┗ 📜 .env  
